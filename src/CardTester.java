@@ -15,5 +15,6 @@ public class CardTester {
 		Card card4 = new Card ("9", "heart", 9);
 		
 		System.out.println("card1 matches with card4: " + card1.matches(card4));
+		System.out.println("card2 matches with card3: " + card2.matches(card3));
 	}
 }
